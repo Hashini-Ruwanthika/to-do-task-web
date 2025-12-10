@@ -1,0 +1,36 @@
+.app-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.app-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.form-section,
+.list-section {
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.error-message {
+  background-color: #fee;
+  color: #c33;
+  padding: 12px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  border: 1px solid #fcc;
+}
+
+@media (max-width: 768px) {
+  .app-content {
+    grid-template-columns: 1fr;
+  }
+}
+
