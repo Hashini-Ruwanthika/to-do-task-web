@@ -1,4 +1,4 @@
-# Todo App - Full Stack Application
+# Todo Task Full Stack Application
 
 A full-stack Todo application built with Node.js, Express, React, TypeScript, and MySQL, orchestrated with Docker Compose.
 
